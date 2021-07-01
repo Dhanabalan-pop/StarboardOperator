@@ -1,0 +1,10 @@
+apiVersion: operators.coreos.com/v1alpha1
+Kind: Subscription
+metadata:
+  name: starboard-operator
+  namespace: starboard-operator
+spec:
+  channel: alpha
+  name: starboard-operator
+  source: operatorhubio-catalog
+  sourceNamespace: olm
