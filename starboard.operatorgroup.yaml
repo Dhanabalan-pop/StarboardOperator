@@ -1,0 +1,8 @@
+apiVersion: operators.coreos.com/v1alpha2
+Kind: OperatorGroup
+metadata:
+  name: starboard
+  namespace: starboard-operator
+spec:
+  targetNamespaces:
+  - default
